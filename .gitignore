@@ -1,0 +1,3 @@
+# To make sure I don't leak active flags
+active.py
+*.fin
