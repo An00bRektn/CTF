@@ -1,3 +1,7 @@
 # To make sure I don't leak active flags
 active.py
 *.fin
+
+# Oops, left behind scratch work
+core*
+.gdb_history
