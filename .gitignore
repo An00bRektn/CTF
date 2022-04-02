@@ -1,6 +1,7 @@
-# To make sure I don't leak active flags
-active.py
+# To make sure I don't leak active flags/spoilers
+active*.py
 *.fin
+libc*
 
 # Oops, left behind scratch work
 core*
