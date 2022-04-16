@@ -1,8 +1,8 @@
 # To make sure I don't leak active flags/spoilers
 active*.py
 *.fin
-libc*
+libc.so*
 
 # Oops, left behind scratch work
 core*
-.gdb_history
+*.gdb_history
