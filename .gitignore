@@ -1,5 +1,6 @@
 # To make sure I don't leak active flags/spoilers
 active*.py
+active*.md
 *.fin
 libc.so*
 
