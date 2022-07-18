@@ -7,3 +7,6 @@ libc.so*
 # Oops, left behind scratch work
 core*
 *.gdb_history
+
+# Other stuff
+__pycache__
