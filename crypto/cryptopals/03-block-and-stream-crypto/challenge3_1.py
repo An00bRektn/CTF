@@ -21,8 +21,8 @@ class PaddingOracle:
         ]
 
     def encrypt(self):
-        cipher = AES.new(self.KEY, AES.MODE_CBC)
         iv = urandom(16)
+        cipher = AES.new(self.KEY, AES.MODE_CBC, iv)
         pt = b64decode(choice(self.strings))
         return b64encode(iv + cipher.encrypt(pad(pt, AES.block_size)))
 
