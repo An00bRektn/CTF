@@ -1,0 +1,3 @@
+# Writeup Notes
+
+Solved this one after the event after learning how pwntools' format strings stuff actually works. Basically, printf can not only leak data from the stack, but the `%n` format string can be leveraged to write data. CryptoCat does a much better job of going through that than I do, so check out his video [here](https://www.youtube.com/watch?v=KgDeMJNK5BU). The only complications here were you only got two shots at a `printf`, so you have to use the first one to leak out the libc base address and the piebase, and then use a one gadget to get a shell (which I also completely messed up during the event).
