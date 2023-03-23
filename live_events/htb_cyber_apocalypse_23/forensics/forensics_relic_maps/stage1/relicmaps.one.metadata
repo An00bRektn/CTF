@@ -1,0 +1,377 @@
+Headers
+####################################################################
+        guidFileType: 7b5c52e4-d88c-4da7-aeb1-5378d02996d3
+        guidFile: c2f5e347-877e-466e-a866-74a7275a17ed
+        guidLegacyFileVersion: 00000000-0000-0000-0000-000000000000
+        guidFileFormat: 109add3f-911b-49f5-a5d0-1791edc8aed8
+        ffvLastCodeThatWroteToThisFile: 42
+        ffvOldestCodeThatHasWrittenToThisFile: 42
+        ffvNewestCodeThatHasWrittenToThisFile: 42
+        ffvOldestCodeThatMayReadThisFile: 42
+        fcrLegacyFreeChunkList: FileChunkReference32:(stp:0, cb:0)
+        fcrLegacyTransactionLog: FileChunkReference32:(stp:4294967295, cb:0)
+        cTransactionsInLog: 20
+        cbLegacyExpectedFileLength: 0
+        rgbPlaceholder: 0
+        fcrLegacyFileNodeListRoot: FileChunkReference32:(stp:4294967295, cb:0)
+        cbLegacyFreeSpaceInFreeChunkList: 0
+        fNeedsDefrag: 0
+        fRepairedFile: 0
+        fNeedsGarbageCollect: 0
+        fHasNoEmbeddedFileObjects: 0
+        guidAncestor: 00000000-0000-0000-0000-000000000000
+        crcName: 0
+        fcrHashedChunkList: FileChunkReference64x32:(stp:48888, cb:1024)
+        fcrTransactionLog: FileChunkReference64x32:(stp:2048, cb:2408)
+        fcrFileNodeListRoot: FileChunkReference64x32:(stp:1024, cb:1024)
+        fcrFreeChunkList: FileChunkReference64x32:(stp:18446744073709551615, cb:0)
+        cbExpectedFileLength: 59760
+        cbFreeSpaceInFreeChunkList: 0
+        guidFileVersion: f417e471-8e8f-4c86-9e31-6660644753b6
+        nFileVersionGeneration: 26
+        guidDenyReadFileVersion: 1dfed438-9414-4f9b-a47b-a2c0f7ba4681
+        grfDebugLogFlags: 0
+        fcrDebugLog: FileChunkReference64x32:(stp:0, cb:0)
+        fcrAllocVerificationFreeChunkList: FileChunkReference64x32:(stp:0, cb:0)
+        bnCreated: 989057238
+        bnLastWroteToThisFile: 989057238
+        bnOldestWritten: 989057238
+        bnNewestWritten: 989057238
+
+
+Properties
+####################################################################
+        jcidSectionMetaData:
+                SchemaRevisionInOrderToRead: b'(\x00\x00\x00'
+
+        jcidSectionNode:
+                NotebookManagementEntityGuid: aa7a7b2d-22d5-4716-820e-add473074580
+                TopologyCreationTimeStamp: 2023-02-06 19:40:13.337999
+                ElementChildNodesOfVersionHistory: [<CompactID> (12, 1)]
+
+        jcidPageSeriesNode:
+                ChildGraphSpaceElementNodes: [<CompactID> (1, 0)]
+                NotebookManagementEntityGuid: 1481e568-c480-4d07-9dfe-68fbc0c8ce88
+                TopologyCreationTimeStamp: 2023-02-06 19:12:52.400999
+
+        jcidSectionMetaData:
+                SchemaRevisionInOrderToRead: b'(\x00\x00\x00'
+
+        jcidSectionNode:
+                NotebookManagementEntityGuid: aa7a7b2d-22d5-4716-820e-add473074580
+                TopologyCreationTimeStamp: 2023-02-06 19:40:13.337999
+                ElementChildNodesOfVersionHistory: [<CompactID> (12, 1)]
+
+        jcidPageMetaData:
+                CachedTitleString: Classified Maps
+                NotebookManagementEntityGuid: 7ef07e0d-97ff-44bd-9a50-341bc54bcb49
+                PageLevel: b'\x01\x00\x00\x00'
+                SchemaRevisionInOrderToRead: b'(\x00\x00\x00'
+                TopologyCreationTimeStamp: 2023-02-06 19:12:52.400999
+
+        jcidPageSeriesNode:
+                ChildGraphSpaceElementNodes: [<CompactID> (1, 2)]
+                NotebookManagementEntityGuid: 1481e568-c480-4d07-9dfe-68fbc0c8ce88
+                TopologyCreationTimeStamp: 2023-02-06 19:12:52.400999
+                MetaDataObjectsAboveGraphSpace: [<CompactID> (1, 0)]
+
+        jcidTitleNode:
+                LastModifiedTime: 2023-02-06 19:40:13
+                OffsetFromParentHoriz: 0
+                OffsetFromParentVert: 0
+                LayoutAlignmentInParent: b'\x0c\x00\t\x00'
+                LayoutAlignmentSelf: b'\x00\x00\x00\x00'
+                LayoutCollisionPriority: b'\x00\x00\x00\x00'
+                ElementChildNodesOfVersionHistory: [<CompactID> (38, 0), <CompactID> (38, 0)]
+
+        jcidOutlineElementNode:
+                LastModifiedTime: 2023-02-06 19:14:51
+                AuthorMostRecent: [<CompactID> (17, 0)]
+                AuthorOriginal: [<CompactID> (17, 0)]
+                CreationTimeStamp: 2023-02-06 19:14:51
+                OutlineElementChildLevel: b'\x01'
+                ContentChildNodesOfPageManifest: [<CompactID> (17, 0)]
+
+        jcidOutlineNode:
+                LastModifiedTime: 2023-02-06 19:40:13
+                ElementChildNodesOfVersionHistory: [<CompactID> (16, 0), <CompactID> (16, 0)]
+                RgOutlineIndentDistance: 047e1ede0000003f000000000000403f0000403f
+                OutlineElementChildLevel: b'\x01'
+                LayoutMaxWidth: 576
+                LayoutMaxHeight: 28
+                OffsetFromParentHoriz: 48
+                OffsetFromParentVert: 115
+                LayoutAlignmentSelf: b'\t\x00\x00\x00'
+
+        jcidPageMetaData:
+                CachedTitleString: Classified Maps
+                NotebookManagementEntityGuid: 7ef07e0d-97ff-44bd-9a50-341bc54bcb49
+                PageLevel: b'\x01\x00\x00\x00'
+                SchemaRevisionInOrderToRead: b'(\x00\x00\x00'
+                TopologyCreationTimeStamp: 2023-02-06 19:12:52.400999
+
+        jcidRichTextOENode:
+                LastModifiedTime: 2023-02-06 19:28:33
+                ParagraphStyle: [<CompactID> (24, 0)]
+                RichEditTextLangID: en_US(1033)
+                TextRunFormatting: [<CompactID> (24, 0)]
+
+        jcidEmbeddedFileNode:
+                LastModifiedTime: 2023-02-06 19:28:45
+                EmbeddedFileContainer: [<CompactID> (33, 0)]
+                PictureWidth: 32
+                PictureHeight: 32
+                PictureContainer: [<CompactID> (33, 0)]
+                EmbeddedFileName: maps_p‮eno.hta
+                RichEditTextUnicode: maps_p‮eno.hta
+                SourceFilepath: Z:\hackthebox-submissions\202303-CA-RelicMaps\malware_files\maps_p‮eno.hta
+                OffsetFromParentHoriz: 576
+                OffsetFromParentVert: 379
+                LayoutAlignmentSelf: b'\t\x00\x00\x00'
+                LayoutMaxWidth: 72
+                LayoutMaxHeight: 86
+                IsLayoutSizeSetByUser: False
+
+        jcidImageNode:
+                LastModifiedTime: 2023-02-06 19:14:56
+                LanguageID: en_US(1033)
+                ImageFilename: Untitled picture.png
+                PictureWidth: 1422
+                PictureHeight: 900
+                PictureContainer: [<CompactID> (20, 0)]
+                LayoutAlignmentInParent: b'\x01\x00\x00\x00'
+                LayoutAlignmentSelf: b'\x01\x00\x00\x00'
+                LayoutMaxWidth: 1090
+                LayoutMaxHeight: 690
+                RichEditTextLangID: en_US(1033)
+                RichEditTextUnicode:
+
+        jcidRichTextOENode:
+                LastModifiedTime: 2023-02-06 19:12:52
+                ParagraphStyle: [<CompactID> (45, 0)]
+                LayoutAlignmentInParent: b'\x01\x00\x00\x00'
+                LayoutAlignmentSelf: b'\x0c\x00\x00\x00'
+                RichEditTextLangID: en_US(1033)
+                TextExtendedAscii: 潍摮祡‬敆牢慵祲㘠‬〲㌲
+                TextRunFormatting: [<CompactID> (45, 0)]
+
+        jcidPageNode:
+                LastModifiedTime: 2023-02-06 19:40:13
+                ElementChildNodesOfVersionHistory: [<CompactID> (15, 0), <CompactID> (15, 0), <CompactID> (15, 0), <CompactID> (15, 0), <CompactID> (15, 0)]
+                StructureElementChildNodes: [<CompactID> (15, 0)]
+                PageMarginTop: 48
+                PageMarginBottom: 48
+                PageMarginLeft: 96
+                PageMarginRight: 96
+                PageWidth: 1005
+                PageHeight: 1044
+                Author: 0xdf
+                EditRootRTL: False
+                PageMarginOriginX: 48
+                PageMarginOriginY: 19
+                NotebookManagementEntityGuid: b199d53b-494a-4371-b0db-6bb182637564
+
+        jcidRichTextOENode:
+                LastModifiedTime: 2023-02-06 19:14:41
+                ParagraphStyle: [<CompactID> (41, 0)]
+                RichEditTextLangID: en_US(1033)
+                TextRunFormatting: [<CompactID> (41, 0)]
+                TextExtendedAscii: 436c6173736966696564204d617073
+
+        jcidPageManifestNode:
+                VersionHistoryGraphSpaceContextNodes: [<CompactID> (1, 1)]
+                ContentChildNodesOfPageManifest: [<CompactID> (14, 0)]
+
+        jcidOutlineElementNode:
+                LastModifiedTime: 2023-02-06 19:14:41
+                AuthorMostRecent: [<CompactID> (17, 0)]
+                AuthorOriginal: [<CompactID> (17, 0)]
+                CreationTimeStamp: 2023-02-06 19:14:38
+                OutlineElementChildLevel: b'\x01'
+                ContentChildNodesOfPageManifest: [<CompactID> (17, 0)]
+
+        jcidPersistablePropertyContainerForTOCSection:
+                Font: Calibri
+                FontSize: b'\x16\x00'
+                FontColor: b'\x00\x00\x00\xff'
+                Bold: False
+                Italic: False
+                Underline: False
+                Strikethrough: False
+                Subscript: False
+                Superscript: False
+                Highlight: b'\x00\x00\x00\xff'
+
+        jcidImageNode:
+                LastModifiedTime: 2023-02-06 19:39:47
+                LanguageID: en_US(1033)
+                ImageFilename: Untitled picture.png
+                PictureWidth: 440
+                PictureHeight: 66
+                PictureContainer: [<CompactID> (36, 0)]
+                OffsetFromParentHoriz: 433
+                OffsetFromParentVert: 379
+                LayoutAlignmentSelf: b'\t\x00\x00\x00'
+                LayoutMaxWidth: 223
+                LayoutMaxHeight: 65
+                RichEditTextLangID: en_US(1033)
+                RichEditTextUnicode: CLICK TO VIEW DOCUMENT
+
+        jcidPersistablePropertyContainerForTOCSection:
+                Font: Calibri
+                FontSize: b'\x16\x00'
+                FontColor: b'\x00\x00\x00\xff'
+                Bold: False
+                Italic: False
+                Underline: False
+                Strikethrough: False
+                Subscript: False
+                Superscript: False
+                Highlight: b'\x00\x00\x00\xff'
+
+        jcidRichTextOENode:
+                LastModifiedTime: 2023-02-06 19:12:52
+                ParagraphStyle: [<CompactID> (45, 0)]
+                LayoutAlignmentInParent: b'\x01\x00\x00\x00'
+                LayoutAlignmentSelf: b'\x0c\x00\x00\x00'
+                RichEditTextLangID: en_US(1033)
+                TextExtendedAscii: ㄱㄺ′䵁
+                TextRunFormatting: [<CompactID> (45, 0)]
+
+        jcidOutlineElementNode:
+                LastModifiedTime: 2023-02-06 19:12:52
+                AuthorMostRecent: [<CompactID> (17, 0)]
+                AuthorOriginal: [<CompactID> (17, 0)]
+                CreationTimeStamp: 2023-02-06 19:12:52
+                OutlineElementChildLevel: b'\x01'
+                ContentChildNodesOfPageManifest: [<CompactID> (17, 0)]
+                OutlineElementRTL: False
+
+        jcidEmbeddedFileNode:
+                LastModifiedTime: 2023-02-06 19:16:44
+                EmbeddedFileContainer: [<CompactID> (27, 0)]
+                PictureWidth: 32
+                PictureHeight: 32
+                PictureContainer: [<CompactID> (27, 0)]
+                EmbeddedFileName: maps_p‮eno.hta
+                RichEditTextUnicode: maps_p‮eno.hta
+                SourceFilepath: Z:\hackthebox-submissions\202303-CA-RelicMaps\malware_files\maps_p‮eno.hta
+                LayoutAlignmentInParent: b'\x00\x00\x00\x00'
+                LayoutAlignmentSelf: b'\x00\x00\x00\x00'
+                OffsetFromParentHoriz: 432
+                OffsetFromParentVert: 379
+                LayoutMaxWidth: 72
+                LayoutMaxHeight: 86
+                IsLayoutSizeSetByUser: False
+
+        jcidOutlineElementNode:
+                LastModifiedTime: 2023-02-06 19:28:33
+                AuthorMostRecent: [<CompactID> (17, 0)]
+                AuthorOriginal: [<CompactID> (17, 0)]
+                CreationTimeStamp: 2023-02-06 19:28:33
+                OutlineElementChildLevel: b'\x01'
+                ContentChildNodesOfPageManifest: [<CompactID> (17, 0)]
+
+        jcidOutlineNode:
+                LastModifiedTime: 2023-02-06 19:40:13
+                ElementChildNodesOfVersionHistory: [<CompactID> (39, 0)]
+                RgOutlineIndentDistance: 娄舄㼀㽀㽀
+                OutlineElementChildLevel: b'\x01'
+                LayoutMaxHeight: 28
+                LayoutMinimumOutlineWidth: 216
+                LayoutAlignmentInParent: b'\x00\x00\x00\x00'
+                LayoutAlignmentSelf: b'\x0c\x00\x00\x00'
+                LayoutMaxWidth: 624
+
+        jcidEmbeddedFileNode:
+                LastModifiedTime: 2023-02-06 19:28:33
+                EmbeddedFileContainer: [<CompactID> (30, 0)]
+                PictureWidth: 32
+                PictureHeight: 32
+                PictureContainer: [<CompactID> (30, 0)]
+                EmbeddedFileName: maps_p‮eno.hta
+                RichEditTextUnicode: maps_p‮eno.hta
+                SourceFilepath: Z:\hackthebox-submissions\202303-CA-RelicMaps\malware_files\maps_p‮eno.hta
+                LayoutAlignmentInParent: b'\x00\x00\x00\x00'
+                LayoutAlignmentSelf: b'\x00\x00\x00\x00'
+                OffsetFromParentHoriz: 504
+                OffsetFromParentVert: 379
+                LayoutMaxWidth: 72
+                LayoutMaxHeight: 86
+                IsLayoutSizeSetByUser: False
+
+        jcidRevisionMetaData:
+                AuthorMostRecent: [<CompactID> (13, 0)]
+                LastModifiedTimeStamp: 2023-02-06 19:39:47
+
+        jcidOutlineElementNode:
+                LastModifiedTime: 2023-02-06 19:12:52
+                AuthorMostRecent: [<CompactID> (17, 0)]
+                AuthorOriginal: [<CompactID> (17, 0)]
+                CreationTimeStamp: 2023-02-06 19:12:52
+                OutlineElementChildLevel: b'\x01'
+                ContentChildNodesOfPageManifest: [<CompactID> (17, 0)]
+                OutlineElementRTL: False
+
+        jcidOutlineNode:
+                LastModifiedTime: 2023-02-06 19:40:13
+                ElementChildNodesOfVersionHistory: [<CompactID> (43, 0), <CompactID> (43, 0)]
+                RgOutlineIndentDistance: 㼀㽀㽀
+                OutlineElementChildLevel: b'\x01'
+                LayoutMaxHeight: 28
+                LayoutAlignmentInParent: b'\x00\x00\x00\x00'
+                LayoutAlignmentSelf: b'\x0c\x00\x00\x00'
+                LayoutMaxWidth: 624
+
+        jcidVersionHistoryMetaData:
+                SchemaRevisionInOrderToRead: b'(\x00\x00\x00'
+
+        jcidVersionHistoryContent:
+
+
+
+Embedded Files
+####################################################################
+        9b9e6d73-d997-419a-98d6-71f1297ac297:
+                Extension: .png
+                89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52
+                00 00 05 8e 00 00 03 84 08 06 00 00 00 06 d9 a5
+                b1 00 00 01 84 69 43 43 50 49 43 43 20 70 72 6f
+                66 69 6c 65 00 00 28 91 7d 91 3d 48 c3 50 14 85
+                4f 53 a5 22 15 87 76 10 e9 90 a1 3a 59 10 15 71
+                d4 2a 14 a1 42 a8 15 5a 75 30 79 e9 1f 34 69 48
+                52 5c 1c 05 d7 82 83 3f 8b 55 07 17 67 5d 1d 5c
+                05 41 f0 07 c4 d5 c5 49 d1 45 4a bc 2f 29 b4 88
+
+        1211f573-a317-4c28-b54a-6cab739bc386:
+                Extension: .hta
+                0d 0a 3c 21 44 4f 43 54 59 50 45 20 68 74 6d 6c
+                3e 0d 0a 3c 68 74 6d 6c 3e 0d 0a 3c 68 65 61 64
+                3e 0d 0a 3c 48 54 41 3a 41 50 50 4c 49 43 41 54
+                49 4f 4e 20 69 63 6f 6e 3d 22 23 22 20 57 49 4e
+                44 4f 57 53 54 41 54 45 3d 22 6e 6f 72 6d 61 6c
+                22 20 53 48 4f 57 49 4e 54 41 53 4b 42 41 52 3d
+                22 6e 6f 22 20 53 59 53 4d 45 4e 55 3d 22 6e 6f
+                22 20 20 43 41 50 54 49 4f 4e 3d 22 6e 6f 22 20
+
+        01bbf488-dead-4573-bbcf-5f64fde1ec12:
+                Extension: .png
+                89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52
+                00 00 00 20 00 00 00 20 08 06 00 00 00 73 7a 7a
+                f4 00 00 00 01 73 52 47 42 00 ae ce 1c e9 00 00
+                00 09 70 48 59 73 00 00 0e c3 00 00 0e c3 01 c7
+                6f a8 64 00 00 00 94 49 44 41 54 58 47 ed 97 51
+                0a c0 20 08 86 6d 27 73 37 f3 68 ee 64 2e 05 1f
+                06 db 43 90 ae 31 85 a8 20 f2 f7 e3 0f 0c e0 ef
+                d1 88 48 de 82 d0 73 83 09 40 c4 74 0d cc 0c 17
+
+        4bbea958-3a91-4294-8ba2-24cfd4e53837:
+                Extension: .png
+                89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52
+                00 00 01 b8 00 00 00 42 08 02 00 00 00 aa d6 54
+                2f 00 00 00 01 73 52 47 42 00 ae ce 1c e9 00 00
+                00 04 67 41 4d 41 00 00 b1 8f 0b fc 61 05 00 00
+                00 09 70 48 59 73 00 00 0e c3 00 00 0e c3 01 c7
+                6f a8 64 00 00 11 cd 49 44 41 54 78 5e ed 9d 09
+                98 14 d5 b5 c7 bb ab 97 e9 e9 d9 f7 19 66 63 d8
+                87 5d 30 80 20 22 88 42 12 8c 09 2e 51 89 46 c3
