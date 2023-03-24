@@ -46,7 +46,7 @@ if dec_1_b64.startswith('multicmd'):
         print(f"{taskid}: {cmd[:40]}")
         if cmd.lower().startswith('loadmodule'):
             cmd = cmd.replace('loadmodule','')
-            with open(f'stage5-{i}.dll', 'wb') as fd:
+            with open(f'payloads/stage_{name}-{i}.dll', 'wb') as fd:
                 eq = (4-(len(cmd)%4))
                 fd.write(b64decode((cmd+('='*eq)).encode()))
             i += 1
@@ -67,7 +67,7 @@ if dec_2_b64.startswith('multicmd'):
             print(text3)
         if cmd.lower().startswith('loadmodule'):
             cmd = cmd.replace('loadmodule','')
-            with open(f'stage5-{i}.dll', 'wb') as fd:
+            with open(f'payloads/stage_{name}-{i}.dll', 'wb') as fd:
                 eq = (4-(len(cmd)%4))
                 fd.write(b64decode((cmd+('='*eq)).encode()))            
             i += 1
@@ -86,7 +86,7 @@ def parse_blob(enc: bytes, name: str):
             print(f"{taskid}: {cmd[:40]}")
             if cmd.lower().startswith('loadmodule'):
                 cmd = cmd.replace('loadmodule','')
-                with open(f'stage_{name}-{i}.dll', 'wb') as fd:
+                with open(f'payloads/stage_{name}-{i}.dll', 'wb') as fd:
                     eq = (4-(len(cmd)%4))
                     fd.write(b64decode((cmd+('='*eq)).encode()))
                 i += 1
