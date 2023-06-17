@@ -1,0 +1,16 @@
+shopt -s extdebug
+function one_zero() {
+    if [[ "$BASH_COMMAND" =~ ^[\$\&+:\;=\?@\#|\<\>.\^\*()\%\!0-]+ ]]; then
+        num_zero=$(awk '{print gsub(/0/, "")}' <<< "$BASH_COMMAND")
+        if [[ $num_zero -le 1 ]]; then
+            return; 
+        else
+            echo "You are only allowed one zero. :)"
+            return 1;
+        fi
+    fi
+    echo "Sorry, you used a character that is not in the allowlist!"
+    return 1;
+}
+
+trap 'one_zero' DEBUG
