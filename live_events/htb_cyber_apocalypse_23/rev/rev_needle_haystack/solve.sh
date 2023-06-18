@@ -1,0 +1,1 @@
+strings haystack | grep HTB
